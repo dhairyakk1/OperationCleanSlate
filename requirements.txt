@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Operation Clean Slate v2.0 — requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+#
+# python-Levenshtein is optional but accelerates thefuzz by ~4-10×.
+# Pin minor versions for repeatable hackathon environments.
+# ─────────────────────────────────────────────────────────────────────────────
+
+pandas>=2.2.0,<3.0.0
+thefuzz>=0.22.1,<1.0.0
+python-Levenshtein>=0.25.0,<1.0.0   # optional C-extension speed-up for thefuzz
+rich>=13.7.0,<14.0.0
